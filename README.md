@@ -5,5 +5,7 @@ This code only implements Transaction initialization and Verifying Transactions
 
 Feel free to use and extend  :)
 
+Requires RestSharp and Json.Net
+
 
 
