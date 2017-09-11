@@ -18,12 +18,12 @@ namespace Payment.PayStack.Processor
             _payStackSecretKey = payStackSecretKey;
         }
 
-        public async Task<InitializeResponse> InitialisePayment(InitializeRequest request)
+        public async Task<InitializeResponse> InitializePayment(InitializeRequest request)
         {
            RestSharpCaller ApiCaller = new RestSharpCaller();
            ApiCaller.Paystack_SECRET_KEY = _payStackSecretKey;
 
-            return ApiCaller.InitialisePayment(request);
+            return ApiCaller.InitializePayment(request);
         }
 
 

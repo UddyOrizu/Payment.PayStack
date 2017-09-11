@@ -5,7 +5,7 @@ namespace Payment.PayStack.Requests
 {
     public interface ICaller
     {
-        InitializeResponse InitialisePayment( InitializeRequest request);
+        InitializeResponse InitializePayment( InitializeRequest request);
         VerifyResponse VerifyPayment(VerifyRequest request);
         
     }

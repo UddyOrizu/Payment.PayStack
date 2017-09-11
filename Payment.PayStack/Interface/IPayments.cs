@@ -8,7 +8,7 @@ namespace Payment.PayStack.Interface
 {
     public interface IPayments
     {
-        Task<InitializeResponse> InitialisePayment(InitializeRequest request);
+        Task<InitializeResponse> InitializePayment(InitializeRequest request);
         Task<VerifyResponse> VerifyPayment(VerifyRequest request);
     }
 }

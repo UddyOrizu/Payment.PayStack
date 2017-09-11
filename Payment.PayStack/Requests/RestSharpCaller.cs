@@ -18,7 +18,7 @@ namespace Payment.PayStack.Requests
             client = new RestClient(Constants.Routes.BaseUrl);
         }
 
-       public InitializeResponse InitialisePayment(InitializeRequest initializerequest)
+       public InitializeResponse InitializePayment(InitializeRequest initializerequest)
        {
            var request = new RestRequest(Constants.Routes.InitializeTransaction, Method.POST);
            request.AddHeader("content-type", "application/x-www-form-urlencoded");
