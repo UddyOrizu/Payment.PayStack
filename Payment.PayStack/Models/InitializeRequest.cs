@@ -25,10 +25,12 @@ namespace Payment.PayStack.Models
         public string email { get; set; }
 
          [JsonProperty("channels")]
-         public string channels { get; set; }
+         public string[] channels { get; set; }
 
          [JsonProperty("subaccount")]
          public string subaccount { get; set; }
-        
+
+        [JsonProperty("transaction_charge")]
+        public int transaction_charge { get; set; }
     }
 }

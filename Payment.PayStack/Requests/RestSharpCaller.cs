@@ -20,8 +20,11 @@ namespace Payment.PayStack.Requests
 
        public InitializeResponse InitializePayment(InitializeRequest initializerequest)
        {
-           var request = new RestRequest(Constants.Routes.InitializeTransaction, Method.POST);
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+            ServicePointManager.ServerCertificateValidationCallback += (sender, certificate, chain, sslPolicyErrors) => true;
+            var request = new RestRequest(Constants.Routes.InitializeTransaction, Method.POST);
            request.AddHeader("content-type", "application/x-www-form-urlencoded");
+
            request.AddHeader("authorization", "Bearer " + Paystack_SECRET_KEY);
            request.AddJsonBody(initializerequest);
 
@@ -45,6 +48,8 @@ namespace Payment.PayStack.Requests
 
         public  VerifyResponse VerifyPayment(VerifyRequest verifyrequest)
         {
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+            ServicePointManager.ServerCertificateValidationCallback += (sender, certificate, chain, sslPolicyErrors) => true;
             var url = string.Format(Constants.Routes.VerifyTransaction, verifyrequest.reference);
             var request = new RestRequest(url, Method.GET);
             request.AddHeader("content-type", "application/x-www-form-urlencoded");

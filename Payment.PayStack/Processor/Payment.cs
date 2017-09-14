@@ -7,7 +7,7 @@ using Payment.PayStack.Interface;
 using Payment.PayStack.Models;
 using Payment.PayStack.Requests;
 
-namespace Payment.PayStack.Processor
+namespace Payment.PayStack
 {
     public class Payment : IPayments
     {
