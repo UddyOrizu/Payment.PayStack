@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Payment.PayStack.Interface;
 using Payment.PayStack.Models;
 using Payment.PayStack.Requests;
+using Payment.PayStack.Models.Verify;
 
 namespace Payment.PayStack
 {

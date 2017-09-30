@@ -4,6 +4,8 @@ using System.Net;
 using RestSharp;
 using Newtonsoft.Json;
 using Payment.PayStack.Models;
+using System;
+using Payment.PayStack.Models.Verify;
 
 namespace Payment.PayStack.Requests
 {
@@ -22,7 +24,9 @@ namespace Payment.PayStack.Requests
        {
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
             ServicePointManager.ServerCertificateValidationCallback += (sender, certificate, chain, sslPolicyErrors) => true;
-            var request = new RestRequest(Constants.Routes.InitializeTransaction, Method.POST);
+
+
+           var request = new RestRequest(Constants.Routes.InitializeTransaction, Method.POST);
            request.AddHeader("content-type", "application/x-www-form-urlencoded");
 
            request.AddHeader("authorization", "Bearer " + Paystack_SECRET_KEY);
@@ -50,6 +54,7 @@ namespace Payment.PayStack.Requests
         {
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
             ServicePointManager.ServerCertificateValidationCallback += (sender, certificate, chain, sslPolicyErrors) => true;
+
             var url = string.Format(Constants.Routes.VerifyTransaction, verifyrequest.reference);
             var request = new RestRequest(url, Method.GET);
             request.AddHeader("content-type", "application/x-www-form-urlencoded");
@@ -66,7 +71,7 @@ namespace Payment.PayStack.Requests
                 }
                 return null;
             }
-            catch
+            catch (Exception ex)
             {
                 return null;
             }

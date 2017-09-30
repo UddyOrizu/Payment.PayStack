@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Payment.PayStack.Models;
+using Payment.PayStack.Models.Verify;
 
 namespace Payment.PayStack.Requests
 {
