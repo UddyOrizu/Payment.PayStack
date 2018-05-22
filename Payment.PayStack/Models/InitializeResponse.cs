@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace Payment.PayStack.Models
+namespace PayStack.Payment.Models
 {
     public class InitializeResponse
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Payment.PayStack
+namespace PayStack.Payment
 {
     public static class Constants
     {

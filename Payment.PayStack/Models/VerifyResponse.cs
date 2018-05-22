@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Payment.PayStack.Models.Verify
+namespace PayStack.Payment.Models.Verify
 {
 
 
@@ -45,7 +45,7 @@ namespace Payment.PayStack.Models.Verify
         public string bank { get; set; }
         public string country_code { get; set; }
         public string brand { get; set; }
-        public bool reusable { get; set; }
+        public bool? reusable { get; set; }
         public string signature { get; set; }
     }
 
@@ -76,7 +76,7 @@ namespace Payment.PayStack.Models.Verify
         public string channel { get; set; }
         public string ip_address { get; set; }
         public Log log { get; set; }
-        public int fees { get; set; }
+        public int? fees { get; set; }
         public Authorization authorization { get; set; }
         public Customer customer { get; set; }
         public object plan { get; set; }

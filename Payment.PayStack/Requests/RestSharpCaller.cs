@@ -3,11 +3,11 @@ using System.Configuration;
 using System.Net;
 using RestSharp;
 using Newtonsoft.Json;
-using Payment.PayStack.Models;
+using PayStack.Payment.Models;
 using System;
-using Payment.PayStack.Models.Verify;
+using PayStack.Payment.Models.Verify;
 
-namespace Payment.PayStack.Requests
+namespace PayStack.Payment.Requests
 {
     public class RestSharpCaller : ICaller
     {

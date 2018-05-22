@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Payment.PayStack.Interface;
-using Payment.PayStack.Models;
-using Payment.PayStack.Requests;
-using Payment.PayStack.Models.Verify;
+using PayStack.Payment.Interface;
+using PayStack.Payment.Models;
+using PayStack.Payment.Requests;
+using PayStack.Payment.Models.Verify;
 
-namespace Payment.PayStack
+namespace PayStack.Payment
 {
     public class Payment : IPayments
     {

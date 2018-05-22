@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Payment.PayStack.Models;
-using Payment.PayStack.Models.Verify;
+using PayStack.Payment.Models;
+using PayStack.Payment.Models.Verify;
 
-namespace Payment.PayStack.Interface
+namespace PayStack.Payment.Interface
 {
     public interface IPayments
     {

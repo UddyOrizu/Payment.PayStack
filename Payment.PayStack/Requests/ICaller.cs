@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Payment.PayStack.Models;
-using Payment.PayStack.Models.Verify;
+using PayStack.Payment.Models;
+using PayStack.Payment.Models.Verify;
 
-namespace Payment.PayStack.Requests
+namespace PayStack.Payment.Requests
 {
     public interface ICaller
     {

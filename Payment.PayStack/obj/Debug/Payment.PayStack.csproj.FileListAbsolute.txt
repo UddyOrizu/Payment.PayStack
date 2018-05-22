@@ -9,10 +9,14 @@ c:\users\uorizu\documents\visual studio 2013\Projects\Payment.PayStack\Payment.P
 c:\users\uorizu\documents\visual studio 2013\Projects\Payment.PayStack\Payment.PayStack\obj\Debug\Payment.PayStack.pdb
 C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Debug\Payment.PayStack.dll
 C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Debug\Payment.PayStack.pdb
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Debug\log4net.dll
 C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Debug\Newtonsoft.Json.dll
 C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Debug\RestSharp.dll
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Debug\System.ValueTuple.dll
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Debug\log4net.xml
 C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Debug\Newtonsoft.Json.xml
 C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Debug\RestSharp.xml
-C:\Work\Repo\Payment.PayStack\Payment.PayStack\obj\Debug\Payment.PayStack.csprojResolveAssemblyReference.cache
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Debug\System.ValueTuple.xml
 C:\Work\Repo\Payment.PayStack\Payment.PayStack\obj\Debug\Payment.PayStack.dll
 C:\Work\Repo\Payment.PayStack\Payment.PayStack\obj\Debug\Payment.PayStack.pdb
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\obj\Debug\Payment.PayStack.csprojResolveAssemblyReference.cache

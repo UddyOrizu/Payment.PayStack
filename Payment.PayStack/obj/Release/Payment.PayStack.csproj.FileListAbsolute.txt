@@ -1,0 +1,13 @@
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Release\Payment.PayStack.dll
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Release\Payment.PayStack.pdb
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Release\Newtonsoft.Json.dll
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Release\RestSharp.dll
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Release\Newtonsoft.Json.xml
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Release\RestSharp.xml
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\obj\Release\Payment.PayStack.csprojResolveAssemblyReference.cache
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\obj\Release\Payment.PayStack.dll
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\obj\Release\Payment.PayStack.pdb
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Release\log4net.dll
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Release\log4net.xml
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Release\System.ValueTuple.dll
+C:\Work\Repo\Payment.PayStack\Payment.PayStack\bin\Release\System.ValueTuple.xml
